@@ -1,0 +1,20 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.gif</argument>
+                <argument name="logo_img_width" xsi:type="number">300</argument> 
+                <argument name="logo_img_height" xsi:type="number">100</argument>
+            </arguments>
+        </referenceBlock>
+         <referenceContainer name="header-wrapper">
+            <block class="Magento\Framework\View\Element\Template" name="contact.us.link"  template="Magento_Theme::html/contact_us_link.phtml" />
+        </referenceContainer>
+        <referenceBlock name="form.subscribe" remove="true"/>
+        <referenceBlock name="sales-guest-form-link" remove="true"/>
+        <referenceBlock name="catalog-search-advanced-link" remove="true"/>
+        <referenceBlock name="footer">
+            <block class="Magento\Framework\View\Element\Template"  name="footer_address" template="Magento_Theme::html/footer_address.phtml" />
+        </referenceBlock>
+    </body>
+</page>

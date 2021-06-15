@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceBlock name="product.info.form.content">
+        <block class="Born\HelloWorld\Block\Catalog\Product\NewBlock" name="catalog.product.view.extrablock" as="extra_options" before="product.info.addtocart" template="Born_HelloWorld::catalog/product/new_block.phtml"/>
+    </referenceBlock>
+</page>

@@ -1,0 +1,38 @@
+.contact-us-link > img {
+    width: 40px; 
+    float: right;
+}
+
+.address-block {
+    float: right; 
+    font-weight: 600;
+}
+
+.products-grid .product-item,
+.page-products .products-grid .product-item,
+.page-layout-1column .products-grid .product-item,
+.page-layout-3columns .products-grid .product-item,
+.page-products.page-layout-1column .products-grid .product-item,
+.page-products.page-layout-3columns .products-grid .product-item { 
+    width: 100%/4 
+}
+
+.sale-tag {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.custom-block {
+    background-color: lavenderblush;
+    border-color: #006bb4fc;
+    border-style: inset;
+    padding: 0 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.custom-block-title {
+    font-family: auto;
+    font-style: italic;
+}
